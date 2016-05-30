@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="?attr/actionBarSize"
+        android:layout_below="@id/tool_bar">
+    <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <RelativeLayout
+                android:id="@+id/search_ed_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="58dp"
+                android:layout_marginRight="58dp"
+                android:paddingRight="24dp"
+                android:paddingLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/darkgray">
+
+            <ImageView
+                    android:id="@+id/search_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:src="@android:drawable/ic_menu_search"/>
+
+            <android.support.design.widget.TextInputLayout
+                    android:id="@+id/name_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/search_img"
+                    android:gravity="center"
+                    android:theme="@style/TextLabel"
+                    app:errorTextAppearance="@style/TextLabel">
+
+            </android.support.design.widget.TextInputLayout>
+
+            <EditText
+                    android:id="@+id/name_edt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/search_img"
+                    android:gravity="center"
+                    android:hint="Search for deals or store"
+                    android:textSize="14sp"
+                    android:textColor="@color/primary"/>
+
+
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycleViewItems"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/search_ed_lay"
+                android:padding="16dp">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+    </RelativeLayout>
+</ScrollView>

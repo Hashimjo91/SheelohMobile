@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="primary">#fff</color>
+    <color name="primary2">#FF9800</color>
+    <color name="primary_dark">#7B1FA2</color>
+    <color name="primary_dark2">#F57C00</color>
+    <color name="primary_light">#E1BEE7</color>
+    <color name="primary_light_tran">#e0e1bee7</color>
+    <color name="primary_light2">#E1BEE7</color>
+    <color name="accent">#FF9800</color>
+    <color name="primary_text">@color/darkgray</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#F57C00</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="disabled">#0c000000</color>
+    <color name="error.color">#80ff74</color>
+
+
+    <color name="lightgray">#dadada</color>
+
+
+    <color name="c1">#f8a488</color>
+    <color name="c2">#fba934</color>
+    <color name="c3">#e9242b</color>
+    <color name="c4">#e74b4d</color>
+    <color name="c5">#c01e2e</color>
+
+    <color name="c1r">#9f5f4a</color>
+    <color name="c2r">#81581c</color>
+    <color name="c3r">#7c1b1e</color>
+    <color name="c4r">#792a2b</color>
+    <color name="c5r">#64181f</color>
+
+
+
+    <color name="stroke_color">#a0e0ff</color>
+    <color name="darkgray">#555555</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

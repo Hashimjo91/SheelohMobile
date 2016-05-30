@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.javacodegeeks.android.menu.MainActivity"
+>
+
+    <item
+            android:id="@+id/Location"
+            android:orderInCategory="100"
+            android:title="Location "
+            app:showAsAction="never"/>
+    <item
+            android:id="@+id/Stores"
+            android:orderInCategory="100"
+            android:title="Stores"
+            app:showAsAction="never"/>
+    <item
+            android:id="@+id/Malls"
+            android:orderInCategory="100"
+            android:title="Malls"
+            app:showAsAction="never"/>
+    <item
+            android:id="@+id/Contact_us"
+            android:orderInCategory="100"
+            android:title="Contact Us"
+            app:showAsAction="never"/>
+    <item
+            android:id="@+id/about"
+            android:orderInCategory="100"
+            android:title="About"
+            app:showAsAction="never"/>
+    <item
+            android:id="@+id/logout"
+            android:orderInCategory="100"
+            android:title="Sign Out"
+            app:showAsAction="never"/>
+
+</menu>
