@@ -1,20 +1,14 @@
 package com.sheeloh.alhusban.sheelohapp;
 
-import android.app.ProgressDialog;
-import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.Window;
 import android.widget.ArrayAdapter;
-import android.widget.ImageView;
 import android.widget.Spinner;
-import com.sheeloh.alhusban.sheelohapp.ServerRelevants.ConnectionHandler;
 
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.List;
 
 class CountryAp {
@@ -37,9 +31,6 @@ public class Register extends SuperActivity {
         initToolBar();
 
 
-
-
-
         String[] items = getResources().getStringArray(R.array.country);
         String[] itemsID = getResources().getStringArray(R.array.countryID);
         List<CountryAp> countryAps = new ArrayList<>();
@@ -49,7 +40,7 @@ public class Register extends SuperActivity {
             countryAp.ID = itemsID[i];
             countryAps.add(countryAp);
         }
-        Log.e("count", countryAps.size()+"");
+        Log.e("count", countryAps.size() + "");
         Spinner userSpinner = (Spinner) findViewById(R.id.spinner);
         if (userSpinner != null) {
             userSpinner.setAdapter(new ArrayAdapter(this, R.layout.spinner, countryAps));
